@@ -1,6 +1,5 @@
 ---
 title: "DS Capstone Topic"
-subtitle: "subtitle"
 date: "September 8, 2026"
 author: "Evelyn Salgado"
 format: pdf
