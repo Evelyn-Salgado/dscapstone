@@ -1,9 +1,26 @@
 ---
-title: "capstone topic"
-format: html
-editor: visual
+title: "DS Capstone Topic"
+subtitle: "subtitle"
+date: "September 8, 2026"
+author: "Evelyn Salgado"
+format: pdf
+execute: 
+  warning: false
+  message: false 
 ---
 
-## Topic
+**Project discipline**: Economics
 
-Add sentence.
+**Faculty advisor**: Prof. Karla Cordova
+
+**Description**
+
+My capstone project aims to examine whether the cost of basic necessities in a state relates to child wellbeing outcomes. This will be tracked across American states from roughly 2013 to 2023. I will be looking at two main data sets: Bureau of Economic Analysis's Regional Price Parities (RPP) and the Annie E. Casey Foundation's KIDS COUNT data. The RPP measures how expensive goods and services are in a given state relative to the national average, while KIDS COUNT provides state-level indicators on child health, economic security, and family wellbeing. The specific KIDS COUNT indicators used will be finalized in consultation with my advisor.
+
+**Data**
+
+This project requires joining two independently structured data sets. The BEA RPP data will be reshaped into a usable format and standardized on a common state identifier to align with KIDS COUNT. Once joined into a single state by year panel, I will address missing or incomplete years and generate descriptive statistics and correlation measures to characterize the relationship between cost of necessities and child outcomes.
+
+**Advanced Method**
+
+I aim to build a multilevel regression model to account for repeated observations within each state. I will then develop an interactive Shiny application as an advanced data visualization.
