@@ -1,0 +1,29 @@
+---
+title: "DS Capstone Annotated Bibliography"
+date: "September 15, 2026"
+author: "Evelyn Salgado"
+format: pdf
+execute: 
+  warning: false
+  message: false 
+---
+
+**Sources**
+
+Chien, Nina C., and Rashmita S. Mistry. 2013. "Geographic Variations in Cost of Living: Associations with Family and Child Well-Being." *Child Development* 84 (1): 209–25. <https://doi.org/10.1111/j.1467-8624.2012.01846.x>.
+
+Holme, Jennifer Jellison. 2022. "Growing Up as Rents Rise: How Housing Affordability Impacts Children." *Review of Educational Research* 92 (6): 953–95. <https://doi.org/10.3102/00346543221079416>.
+
+Liu, Qingyang, and Jayantika Chakraborty. 2026. "Material Hardship Trajectories from Infancy to Adolescence: Intergenerational Impact on Emerging Adults' Educational Pathways." *Family Process* 65 (2): e70165. <https://doi.org/10.1111/famp.70165>.
+
+Weissman, David G., Mark L. Hatzenbuehler, Mina Cikara, Deanna M. Barch, and Katie A. McLaughlin. 2023. "State-Level Macro-Economic Factors Moderate the Association of Low Income with Brain Structure and Mental Health in U.S. Children." *Nature Communications* 14 (1): 2085. <https://doi.org/10.1038/s41467-023-37778-1>.
+
+**Sources Paragraph**
+
+This project aims to measure child wellbeing across four domains, similar to the framework used in the Annie E. Casey Foundation's KIDS COUNT data: education, family composition, economic wellbeing, and health. The four sources together demonstrate that economic pressure on families has been linked to outcomes across these four domains, even though none of them isolate non-housing cost of living the way this project intends to. Weissman et al (2023) will be used as a main source, as it speaks specifically to the health domain by showing that state-level cost of living changes the relationship between family income and children's brain development and mental health. This provides an example of studying cost of living as something that can strengthen or weaken another relationship, rather than only looking at its direct effects. Chien and Mistry (2013), the second main source, speaks to the education and economic wellbeing domains, testing whether cost of living (independent of income) predicts academic achievement. It supports this project’s focus on cost of living as its own factor in wellbeing research. Liu and Chakraborty (2026) reinforce the education domain, testing whether hardship sustained across childhood can predict educational attainment years later. Finally, to round out the family and economic domains, Holme (2022) reviews the well-established body of research on how housing affordability affects children. This source can be used to acknowledge that area of research while deliberately excluding housing itself from my analysis, focusing instead on what non-housing cost pressure does across these same domains on its own.
+
+**Data Set Information**
+
+The Annie E. Casey Foundation's KIDS COUNT data will provide the outcome measures for this project, offering state-level indicators across the four wellbeing domains: education, family, economic wellbeing, and health.
+
+The second data set, which will measure the cost of necessities, is still being decided between two options: a measure of the share of household income spent on necessities relative to discretionary spending, or a data set tracking the rise in childcare costs over time. Both options will exclude housing and rent, keeping the focus on other categories of cost pressure, and the final choice will depend on which offers usable state-level data across 2013–2023.
