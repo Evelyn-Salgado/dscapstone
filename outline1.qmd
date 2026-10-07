@@ -1,0 +1,44 @@
+---
+title: "Capstone Paper Outline"
+date: "October 6, 2026"
+author: "Evelyn Salgado"
+format: pdf
+editor: visual 
+execute: 
+  warning: false
+  message: false 
+---
+
+**Outline**:
+
+-   Introduction
+
+    In this section I aim to introduce the topic –including previous literature regarding the increasing cost of childcare in the U.S. and the importance of a child's well being through different avenues (financial wellbeing, education, and health). I wil also cover the motivation for the topic. Alongside this, I will provide my hypothesis.
+
+-   Methodology & Data
+
+    Here, I will introduce my data sets, my reasoning for choosing them, any limitations reader should be aware of, and explaining the chosen time range for the data. Ideally, this section will begin to introduce my variables of interest, specifically explaining why each variables was chosen as a proxy for a greater understanding of children's "wellbeing." Additionally, I am considering creating an index for child wellbeing, and if I do, I will use this section to provide details of the rationale, how it is constructed, and any limitations of this index. (Currently, in the early stage, I am considering using it as a numerical index that tallys up a score and gives states a numerical value depending on the regression results.) This section will also mention any important caveats to the data wrangling I will do for the regression model (for example: any missing data, weird figures, etc).
+
+-   Model
+
+    I hope to use past literature to base off an economic model for the regression. I anticpate to reformulate this model to fit my specific topic, and I will do so in consultation with my econ advisor. As such, I will present the model, what I changed (and rationale), and it's limitations.
+
+-   Regression & Results
+
+    In this step, I will go through how I ran the rationale on R, present data/graph to support this. Provide raw results.
+
+-   Interpreting the results
+
+    After running the regression, I will interpret the results. I will reconnect with the literature to understand it's wider implications, and why they matter.
+
+-   Wellbeing Index (in consideration, TBD)
+
+    With this index, I hope to generate a better understanding of the regression results by comparing scores across states, and more broadly, seeing if I can draw conclusions across regions (Northeast, Midwest, West, and South). With this index, I aim to have a better understanding of the differences at a state and regional level.
+
+-   Importance of accessible data: My Data Viz
+
+    In this section I will explain my rationale for creating a data visualization for this project. I will walk through my data dashboard and how it may be used to understand my findings.
+
+-   Conclusion
+
+    Restate main findings/interpretation, mention any ideas for the future.
