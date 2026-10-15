@@ -1,0 +1,19 @@
+---
+title: "Capstone Paper Section Draft"
+date: "October 14, 2026"
+author: "Evelyn Salgado"
+format: pdf
+editor: visual 
+execute: 
+  warning: false
+  message: false 
+---
+
+**Introduction (draft):**\
+In July 2026, the final rule on “Restoring Flexibility in the Child Care and Development Fund (CCDF)” took effect. At a time when childcare costs are estimated to be growing faster than the rate of inflation (Brookings), President Trump’s administration amended four primary policies issued in 2024. Among these changes, the policy most directly affecting families is the adjustment of the childcare copayment cap. Previously, under the Biden administration, childcare fees for low-income families were federally capped at 7% of family income. As of July 13, 2026, the revised policy allows individual states to determine their own caps, with the general guidance that costs should not act as a barrier to childcare access. For American families, who already spend approximately 15% of their pretax household income on childcare (nytimes), this change raises concerns about further declines in affordability.
+
+Concerns about childcare affordability extend beyond the CCDF revisions. A proposed overhaul of the Head Start Program includes controversial changes, such as reducing the cap on administrative overhead spending from 15% to 5% of program funding and introducing English-only instruction. While only the CCDF policy changes have officially taken effect, the proposed Head Start revisions raise additional concerns, particularly given existing evidence that American families were already struggling to afford childcare before these changes. Childcare facilities, many of which operate on estimated profit margins of less than 1% (Brookings), also face challenges from changes such as the repeal of advance payments, funding based on daily child enrollment, and the removal of federally required state grants/contracts to expand childcare access for children with disabilities.
+
+These developments highlight the growing financial pressures surrounding childcare access in the United States. Beyond affordability, access to childcare is particularly important given its potential role in children's long-term development. Observational research suggests that higher-quality childcare received from birth through age 4.5 is associated with higher cognitive and academic achievement at age 15 (NLM). These findings suggest that early childcare experiences may have lasting implications for children's development and well-being.
+
+Building on this relationship, this project aims to examine how childcare affordability across U.S. states is associated with children's well-being across four domains: health, measured through health insurance coverage; education, measured through school attendance and enrollment; financial well-being, measured through household income, poverty levels, and SNAP receipt; and family composition, measured through household structure and recent births. Using regression analysis, this project seeks to better understand the relationship between differences in childcare affordability across states and these measures of child well-being.
