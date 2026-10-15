@@ -2,7 +2,9 @@
 title: "Capstone Paper Section Draft"
 date: "October 14, 2026"
 author: "Evelyn Salgado"
-format: pdf
+format:
+  pdf: 
+    indent: true
 editor: visual 
 execute: 
   warning: false
@@ -10,6 +12,7 @@ execute:
 ---
 
 **Introduction (draft):**\
+
 In July 2026, the final rule on “Restoring Flexibility in the Child Care and Development Fund (CCDF)” took effect. At a time when childcare costs are estimated to be growing faster than the rate of inflation (Brookings), President Trump’s administration amended four primary policies issued in 2024. Among these changes, the policy most directly affecting families is the adjustment of the childcare copayment cap. Previously, under the Biden administration, childcare fees for low-income families were federally capped at 7% of family income. As of July 13, 2026, the revised policy allows individual states to determine their own caps, with the general guidance that costs should not act as a barrier to childcare access. For American families, who already spend approximately 15% of their pretax household income on childcare (nytimes), this change raises concerns about further declines in affordability.
 
 Concerns about childcare affordability extend beyond the CCDF revisions. A proposed overhaul of the Head Start Program includes controversial changes, such as reducing the cap on administrative overhead spending from 15% to 5% of program funding and introducing English-only instruction. While only the CCDF policy changes have officially taken effect, the proposed Head Start revisions raise additional concerns, particularly given existing evidence that American families were already struggling to afford childcare before these changes. Childcare facilities, many of which operate on estimated profit margins of less than 1% (Brookings), also face challenges from changes such as the repeal of advance payments, funding based on daily child enrollment, and the removal of federally required state grants/contracts to expand childcare access for children with disabilities.
