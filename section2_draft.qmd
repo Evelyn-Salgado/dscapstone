@@ -1,0 +1,30 @@
+---
+title: "Capstone 2nd Section Draft"
+date: "November 3, 2026"
+author: "Evelyn Salgado"
+format:
+  pdf: 
+    indent: true
+editor: visual 
+execute: 
+  warning: false
+  message: false 
+---
+
+**Data Section (Draft)**
+
+This paper utilizes two primary datasets: the National Database of Childcare Prices (NDCP) and the American Community Survey (ACS), accessed through IPUMS USA. The analysis covers 2016–2022, excluding 2020, for a total of six years.
+
+The NDCP is a federal data source that provides county-level median weekly childcare prices, as well as information on provider type (center-based versus family childcare), children's age groups, and county characteristics. Data are available from 2008 through 2022, but for the purposes of this analysis, the sample will be limited to 2016–2022, excluding 2020. Specifically, this paper examines median weekly prices for center-based preschool care (`mcpreschool`) and home-based family childcare (`mfccpreschool`). These measures serve as the primary explanatory variables, allowing comparisons across counties and over time.
+
+The ACS provides individual- and household-level information that will be used to construct proxies for children's well-being across three domains: health, measured through health insurance coverage (`HCOVANY`); maternal labor force participation, measured through mothers' labor force participation (`LABFORCE`); and financial well-being, measured through the percentage of children living below the poverty threshold (`POVERTY`). Additional variables will help identify relevant populations, while survey weights will be used to calculate representative estimates.
+
+**Data Challenges and Next Steps**
+
+A central challenge of this analysis is that the two datasets use different geographic units. The NDCP reports childcare prices at the county level, while ACS public-use microdata identify individuals by Public Use Microdata Areas (PUMAs), geographic regions containing at least 100,000 residents. Importantly, PUMA boundaries do not always align with county boundaries, meaning the datasets cannot be directly merged using geographic identifiers.
+
+To address this challenge, the project uses geographic crosswalks from the Missouri Census Data Center's Geocorr tool. This tool identifies how PUMA boundaries overlap with counties within each state and provides population-based allocation factors to help approximate county-level outcomes from ACS data. Two different crosswalks will be used: the first uses 2010-based PUMA designations for 2016, 2017, 2018, 2019, and 2021, while the second uses 2020-based PUMA designations for 2022, reflecting changes in geographic boundaries.
+
+Data processing begins with a preliminary analysis of Alabama's 2019 child poverty rate. Alabama is identified by STATEFIP = 1 in the ACS data. I filtered ACS observations to children ages 0–5 and used person-level survey weights to calculate child poverty rates across Alabama's 34 PUMAs, using a sample of 2,750 children.
+
+The next step is to use the geographic crosswalk to approximate poverty rates for Alabama's 67 counties and merge these estimates with NDCP childcare prices by county and year. This process will then be repeated across states and years to support a broader analysis of all 50 states. The goal is to create a combined county-level dataset containing childcare prices and the previously defined child well-being indicators. After merging the datasets, I plan to run regressions to examine the association between childcare prices and these indicators. Finally, I plan to use U.S. Census county shapefiles, which provide geographic boundary information, to create visualizations of childcare prices and children's well-being indicators and identify spatial patterns across counties and states.
