@@ -1,7 +1,7 @@
 ---
 title: "Ethical Considerations"
 date: "November 10, 2026"
-author: "Evelyn Salgad0"
+author: "Evelyn Salgado"
 format:
   pdf: 
     indent: true
