@@ -1,0 +1,20 @@
+---
+title: "Ethical Considerations"
+date: "November 10, 2026"
+author: "Evelyn Salgad0"
+format:
+  pdf: 
+    indent: true
+editor: visual 
+execute: 
+  warning: false
+  message: false 
+---
+
+**Ethical Considerations**
+
+Although both datasets used in this project are publicly available, it is still important to consider how the data are analyzed and how the findings are interpreted. Examining the association between childcare prices and children's well-being raises ethical considerations, primarily regarding the data's limitations and how well they represent children's experiences. While my project aims to examine childcare prices and well-being at the county level, allowing for geographic differences that state-level data may overlook, it can still obscure differences between children and households within the same county. Importantly, indicators such as poverty status and health insurance coverage cannot fully capture the complexity of well-being, either for children or their households. To address this, I have tried to remain mindful of these limitations and avoid treating my chosen indicators as comprehensive measures of well-being.
+
+Another consideration is that the American Community Survey (ACS) data accessed through IPUMS represents a sample of the population rather than every individual. While the data provides person-level weights to help produce representative estimates, it cannot fully capture every child's circumstances. I recognize the potential harm of reducing a child's experiences to what my chosen indicators and model can capture. Similar limitations apply to the childcare price data, as county-level averages may not reflect the prices individual households actually pay or the different financial burdens they experience. Using PUMA-to-county crosswalks to match the datasets at the county level also introduces uncertainty, as geographic boundaries do not always align perfectly. Throughout this process, I have tried to remain conscious that my data represents real people whose experiences may not be fully reflected in the findings.
+
+Finally, I recognize the importance of distinguishing correlation from causation. Other factors may influence children's well-being beyond childcare prices, making it difficult to isolate their relationship. To avoid drawing misleading conclusions, I intend to interpret my findings as associations rather than direct causal relationships.
